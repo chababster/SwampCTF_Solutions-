@@ -1,6 +1,11 @@
 # this program translates float coordinates into IP address 
 # float -> hex -> break hex into 2 chars -> translate each 2char into 
-# each octet of the "IP" address  
+# each octet of the "IP" address 
+
+# this script loads coords into excel 
+# i used a site call http://www.hamstermap.com/custommap.html
+# check out the excel sheet for proper input format for the website 
+ 
 
 
 import struct
