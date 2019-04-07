@@ -1,0 +1,1 @@
+All you needed to do was run "strings <filename> | grep flag "  

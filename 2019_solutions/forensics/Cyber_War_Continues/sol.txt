@@ -1,0 +1,8 @@
+1) the message is encoded in a railfence cipher with key of 3 
+	- once decoded the password to the locked zip is "toor" 
+2) the pcap contains USB traffic from two sources 
+	- isolating the keyboard source using 
+		`usb.src == 1.2.1`
+	- in the 'leftover capture data' we have differing hex values 
+	- using a keyboard hex code found online we can translate the flag 
+		'flag{war_never_changes}'
